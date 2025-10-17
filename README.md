@@ -4,7 +4,7 @@ Sample repository and customization for AWS Control Tower Account Factory for Te
 
 This repository is part of AFT lab. For detailed walkthrough, please check the lab in [AWS Control Tower Workshop](https://catalog.workshops.aws/control-tower/en-US/customization/aft).
 
-## How to use 
+## How to use :
 
 There are four repository, to help you get started:
 - [aft-sample-account-provisioning-customizations](https://github.com/aws-samples/aft-sample-account-provisioning-customizations)
