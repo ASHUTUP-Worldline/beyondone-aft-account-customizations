@@ -9,7 +9,7 @@ resource "aws_config_config_rule" "r" {
 data "aws_caller_identity" "current" {}
 
 resource "aws_s3_bucket" "account_level_prod_bucket" {
-  bucket = "account-prod-bucket-${data.aws_caller_identity.current.account_id}"
+  bucket = "account-production-bucket-${data.aws_caller_identity.current.account_id}"
 
   tags = {
     Name        = "Account prod bucket"
